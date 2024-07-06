@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Place</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let entity of entities">
+      <td>{{ entity.name }}</td>
+      <td>{{ entity.firstName }}</td>
+      <td>{{ entity.lastName }}</td>
+      <td>{{ entity.place }}</td>
+    </tr>
+  </tbody>
+</table>
